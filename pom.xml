@@ -1,13 +1,13 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>@groupId@</groupId>
-  <artifactId>@artifactId@</artifactId>
-  <version>@version@</version>
+  <groupId>com.example</groupId>
+  <artifactId>my-project</artifactId>
+  <version>1.0.0</version>
   <packaging>jar</packaging>
 
-  <name>@ant.project.name@</name>
-  <description>@description@</description>
-  <url>@project.url@</url>
+  <name>My Project</name>
+  <description>A description of my project</description>
+  <url>http://example.com</url>
 
   <licenses>
     <license>
@@ -18,17 +18,15 @@
   </licenses>
 
   <scm>
-    <connection>
-      scm:git:@project.repo.url@
-    </connection>
-    <url>@project.scm.url@</url>
+    <connection>scm:git:https://github.com/example/my-project.git</connection>
+    <url>https://github.com/example/my-project</url>
   </scm>
 
   <developers>
     <developer>
-      <name>Christopher Wellons</name>
-      <email>mosquitopsu@gmail.com</email>
-      <url>http://nullprogram.com</url>
+      <name>John Doe</name>
+      <email>john.doe@example.com</email>
+      <url>http://example.com/johndoe</url>
       <timezone>-5</timezone>
     </developer>
   </developers>
